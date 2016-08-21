@@ -23,45 +23,6 @@
                 "enabled": true,
                 "label": "Button"
             }
-        },
-        "list": {
-            "prototype": "digit/ui/list.reel",
-            "properties": {
-                "element": {"#": "list"}
-            }
-        },
-        "listItem": {
-            "prototype": "digit/ui/list-item.reel",
-            "properties": {
-                "element": {"#": "listItem"}
-            }
-        },
-        "radio": {
-            "prototype": "digit/ui/radio-button.reel",
-            "properties": {
-                "element": {"#": "radio"},
-                "checked": true,
-                "contenteditable": "true",
-                "dir": "ltr",
-                "draggable": "true"
-            }
-        },
-        "textArea": {
-            "prototype": "digit/ui/text-area.reel",
-            "properties": {
-                "element": {"#": "textArea"},
-                "contenteditable": "true",
-                "dir": "ltr",
-                "draggable": "true",
-                "value": "Text"
-            }
-        },
-        "title": {
-            "prototype": "digit/ui/title.reel",
-            "properties": {
-                "element": {"#": "title"},
-                "value": "标题"
-            }
         }
     }
     </script>
@@ -69,13 +30,6 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         Search Library
-        <h1 data-montage-id="title"></h1>
-        <ul data-montage-id="list">
-            <li></li>
-        </ul>
-        <li data-montage-id="listItem"></li>
-        <input type="radio" data-montage-id="radio">
-        <textarea data-montage-id="textArea"></textarea>
         <button data-montage-id="button"></button>
     </div>
 </body>
