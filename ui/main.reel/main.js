@@ -12,5 +12,11 @@ exports.Main = Component.specialize(/** @lends Main# */ {
         value: function Main() {
             this.super();
         }
+    },
+
+    handleOwnerTitle: {
+        value: function (event) {
+        }
     }
+
 });
